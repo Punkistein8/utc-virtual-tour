@@ -119,6 +119,44 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": []
+    },
+    {
+      "id": "3-a-piso3",
+      "name": "a-piso3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1448,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.081850687165888,
+          "pitch": -0.04712604742800508,
+          "rotation": 4.71238898038469,
+          "target": "1-plantabaja-b"
+        }
+      ],
+      "infoHotspots": []
     }
   ],
   "name": "Project Title",
