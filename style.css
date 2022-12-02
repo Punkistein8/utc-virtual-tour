@@ -25,7 +25,7 @@ html, body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   background-color: #000;
-  color: rgb(0, 0, 0);
+  color: #fff;
 }
 
 a, a:hover, a:active, a:visited {
@@ -80,7 +80,7 @@ body.multiple-scenes.mobile #titleBar {
   line-height: 30px;
   padding: 5px;
   background-color: rgb(255, 255, 255);
-  background-color: rgba(253, 253, 253, 0.8);
+  background-color: rgb(255, 255, 255);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -103,8 +103,8 @@ body.multiple-scenes.mobile #titleBar {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(255, 255, 255);
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 .mobile #fullscreenToggle {
@@ -153,8 +153,8 @@ body.fullscreen-enabled #fullscreenToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(255, 255, 255);
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 .mobile #autorotateToggle {
@@ -207,8 +207,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 .mobile #sceneListToggle {
@@ -258,10 +258,11 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   top: 0;
   left: -220px;
   padding-top: 40px;
-  width: 220px;
+  width: 600px;
+  height: 1000px;
   max-height: 100%;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
   margin-left: 0;
   -webkit-transition: margin-left 0.5s ease-in-out;
   transition: margin-left 0.5s ease-in-out;
@@ -273,8 +274,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #sceneList .scenes {
   width: 100%;
-  background-color: rgb(255, 255, 255);
-  background-color: rgba(255, 252, 252, 1);
+  /* background-color: rgb(58,68,84);
+  background-color: rgba(58,68,84,0.8); */
 }
 
 .mobile #sceneList {
@@ -298,11 +299,11 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 #sceneList .scene {
   display: block;
   width: 100%;
-  height: 50px;
+  height: 30px;
 }
 
 .mobile #sceneList .scene {
-  height: 100px;
+  height: 40px;
 }
 
 #sceneList .scene .text {
@@ -320,13 +321,13 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 }
 
 .no-touch #sceneList .scene:hover {
-  background-color: rgb(51, 38, 131);
-  background-color: rgba(51, 38, 131, 0.8);
+  background-color: rgb(103,115,131);
+  background-color: rgba(103,115,131,0.8);
 }
 
 #sceneList .scene.current {
-  background-color: rgb(0, 110, 255);
-  background-color: rgba(0, 110, 255, 0.8);
+  background-color: rgb(103,115,131);
+  background-color: rgba(103,115,131,0.8);
 }
 
 /* Hide scene list when only a single scene exists */
@@ -787,7 +788,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   height: 40px;
   padding: 5px;
   background-color: rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255);
 }
 
 body.view-control-buttons .viewControlButton {
@@ -827,31 +828,4 @@ body.view-control-buttons .viewControlButton {
 }
 .viewControlButton-6 {
   margin-left: 105px;
-}
-
-#toggleDeviceOrientation {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 50px;
-  right: 10px;
-  background-color: rgb(8, 0, 255);
-  background-color: rgba(0, 8, 255);
-}
-
-#toggleDeviceOrientation img {
-  width: 34px;
-  margin: 8px;
-}
-
-#toggleDeviceOrientation .disable {
-  display: none;
-}
-
-#toggleDeviceOrientation.enabled .disable {
-  display: block;
-}
-
-#toggleDeviceOrientation.enabled .enable {
-  display: none;
 }
