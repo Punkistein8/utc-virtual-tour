@@ -258,10 +258,11 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   top: 0;
   left: -220px;
   padding-top: 40px;
-  width: 220px;
+  width: 600px;
+  height: 1000px;
   max-height: 100%;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
   margin-left: 0;
   -webkit-transition: margin-left 0.5s ease-in-out;
   transition: margin-left 0.5s ease-in-out;
@@ -273,8 +274,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #sceneList .scenes {
   width: 100%;
-  background-color: rgb(58,68,84);
-  background-color: rgba(58,68,84,0.8);
+  /* background-color: rgb(58,68,84);
+  background-color: rgba(58,68,84,0.8); */
 }
 
 .mobile #sceneList {
