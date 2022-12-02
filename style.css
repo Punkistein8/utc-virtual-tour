@@ -273,7 +273,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 }
 
 #sceneList .scenes {
-  width: 100%;
+  width: 400px;
   /* background-color: rgb(58,68,84);
   background-color: rgba(58,68,84,0.8); */
 }
