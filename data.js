@@ -158,8 +158,10 @@ var APP_DATA = {
       ],
       "infoHotspots": []
     },
+    
 
-    // Data for Principal Floor
+
+    //Data for Principal Floor
     {
       "id": "0-a-principal",
       "name": "Entrada Principal",
