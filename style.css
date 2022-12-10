@@ -79,8 +79,7 @@ body.multiple-scenes.mobile #titleBar {
   height: 100%;
   line-height: 30px;
   padding: 5px;
-  background-color: rgb(255, 255, 255);
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.37);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -273,7 +272,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 }
 
 #sceneList .scenes {
-  width: 400px;
+  width: 230px;
   /* background-color: rgb(58,68,84);
   background-color: rgba(58,68,84,0.8); */
 }
@@ -317,17 +316,16 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 }
 
 .mobile #sceneList .scene .text {
-  line-height: 40px;
+  line-height: 100px;
 }
 
-.no-touch #sceneList .scene:hover {
+/* .no-touch #sceneList .scene:hover {
   background-color: rgb(103,115,131);
   background-color: rgba(103,115,131,0.8);
-}
+} */
 
 #sceneList .scene.current {
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: rgba(103, 115, 131, 0.397);
 }
 
 /* Hide scene list when only a single scene exists */
